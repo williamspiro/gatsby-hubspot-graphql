@@ -1,11 +1,5 @@
-# gatsby-source-graphql example with GraphCMS
+# Sample Netlify + Gatsby + HubSpot GraphQL site
 
-Simple gatsby site that displays blog with data inside GraphCMS.
+[https://priceless-noyce-40cbc0.netlify.app/](https://priceless-noyce-40cbc0.netlify.app/)  
 
-Built using [gatsby-source-graphql](https://www.gatsbyjs.com/packages/gatsby-source-graphql/).
-
-<!-- [See it here](https://using-gatsby-source-graphql.netlify.app/) -->
-
-## How it works
-
-Using `gatsby-source-graphql`, this stitches schema from GraphCMS into Gatsby schema. All blog posts are retrieved in `gatsby-node` and pages are created for them.
+Run `gatsby develop` to run locally 
