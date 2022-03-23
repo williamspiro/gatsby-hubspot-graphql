@@ -13,7 +13,7 @@ module.exports = {
       resolve: `gatsby-source-graphql`,
       options: {
         fieldName: `hubs`,
-        url: `https://api.hubspotqa.com/collector/v3/graphql?portalId=102940484&hapikey=6a871f43-20c9-4d1d-bda5-3c49618dd4c0`,
+        url: `https://api.hubspot.com/collector/v3/graphql?portalId=xxxxxxxx&hapikey=xxxxxxx-xxxxxxx-xxxxx-xxxxx-xxxxxxxxxx`,
         typeName: `HubSpotGraphQL`,
         refetchInterval: 60,
       },
