@@ -9,9 +9,13 @@ exports.createPages = async ({ actions, graphql }) => {
     query {
       hubs {
         CRM {
-          p_propertylisting_collection {
+          product_collection {
             items {
-              dynamic_page_slug_3
+              name
+              product_slug
+              description
+              price
+              product_image
             }
           }
         }
@@ -19,12 +23,12 @@ exports.createPages = async ({ actions, graphql }) => {
     }
   `)
 
-  data.hubs.CRM.p_propertylisting_collection.items.forEach(item => {
+  data.hubs.CRM.product_collection.items.forEach(item => {
     actions.createPage({
-      path: item.dynamic_page_slug_3,
+      path: item.product_slug,
       component: path.resolve(`./src/components/item.js`),
       context: {
-        itemId: item.dynamic_page_slug_3,
+        itemId: item.product_slug,
       },
     })
   })
