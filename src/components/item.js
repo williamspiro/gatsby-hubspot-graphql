@@ -3,19 +3,15 @@ import React from "react"
 import Image from "gatsby-image"
 
 export default ({ data }) => {
-  const item = data.hubs.CRM.p_propertylisting
+  const item = data.hubs.CRM.product
   return (
     <div>
-      <h1>{item.address}</h1>
+      <h1>{item.name}</h1>
       <h3>${item.price}</h3>
       <p>
-        <ul>
-          <li>bedrooms: {item.bedrooms}</li>
-          <li>bathrooms: {item.batrooms}</li>
-          <li>sq feet: {item.square_feet}</li>
-        </ul>
+        {item.description}
       </p>
-      <img src={item.property_image} />
+      <img src={item.product_image} />
     </div>
   )
 }
