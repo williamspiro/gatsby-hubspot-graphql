@@ -11,11 +11,7 @@ exports.createPages = async ({ actions, graphql }) => {
         CRM {
           product_collection {
             items {
-              name
               product_slug
-              description
-              price
-              product_image
             }
           }
         }
