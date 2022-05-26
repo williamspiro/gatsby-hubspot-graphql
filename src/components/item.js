@@ -24,13 +24,12 @@ export const query = graphql`
   query($itemId: String!) {
     hubs {
       CRM {
-        p_propertylisting(uniquePropertyName: "dynamic_page_slug_3", uniquePropertyValue: $itemId) {
-          address
-          bathrooms
-          bedrooms
+        product(uniqueIdentifier: "product_slug", uniqueIdentifierValue: $itemId) {
+          name
+          product_slug
+          description
           price
-          property_image
-          square_feet
+          product_image
         }
       }
     }
