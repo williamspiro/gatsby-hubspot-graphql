@@ -17,4 +17,4 @@ This is a sample JAMstack project, using:
     ```
     NOTE: `ENV` should be left blank  
 4. Run `gatsby develop` to run locally 
-5. Update the various GraphQL queries to be fetching data that exists in your own HubSpot account
+5. Update the various GraphQL queries to be fetching data that exists in your own HubSpot account, using the [HubSpot GraphQL API](https://developers.hubspot.com/docs/cms/data/query-hubspot-data-using-graphql)
