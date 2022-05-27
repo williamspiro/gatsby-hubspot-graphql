@@ -1,6 +1,5 @@
 import { graphql } from "gatsby"
 import React from "react"
-import Image from "gatsby-image"
 
 export default ({ data }) => {
   const item = data.hubs.CRM.product

@@ -4,14 +4,14 @@
   "license": "MIT",
   "scripts": {
     "develop": "gatsby develop",
+    "clean": "gatsby clean",
     "build": "gatsby build",
     "start": "npm run develop",
     "serve": "gatsby serve"
   },
   "dependencies": {
     "dateformat": "^3.0.3",
-    "gatsby": "next",
-    "gatsby-image": "next",
+    "gatsby": "^4.15.1",
     "gatsby-plugin-netlify": "next",
     "gatsby-plugin-sharp": "next",
     "gatsby-source-filesystem": "next",
