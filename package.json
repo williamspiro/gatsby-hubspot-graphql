@@ -9,18 +9,14 @@
     "serve": "gatsby serve"
   },
   "dependencies": {
-    "dateformat": "^3.0.3",
     "gatsby": "next",
     "gatsby-image": "next",
     "gatsby-plugin-netlify": "next",
     "gatsby-plugin-sharp": "next",
-    "gatsby-source-filesystem": "next",
     "gatsby-source-graphql": "next",
     "gatsby-transformer-sharp": "next",
     "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "remark": "^11.0.2",
-    "remark-html": "^10.0.0"
+    "react-dom": "^16.12.0"
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
